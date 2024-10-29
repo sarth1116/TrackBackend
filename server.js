@@ -10,6 +10,12 @@ app.use(cors()); // Enable CORS for all routes
 app.get('/api/route', (req, res) => {
     const filePath = path.join(__dirname, 'data', 'data.json');
 
+    // Check if the data file exists
+    if (!fs.existsSync(filePath)) {
+        console.error('Data file not found:', filePath);
+        return res.status(404).send({ message: 'Data file not found' });
+    }
+
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
             console.error('Error reading data:', err);
