@@ -7,7 +7,7 @@ const app = express();
 app.use(cors()); // Enable CORS for all routes
 
 // Route to get the vehicle location data
-app.get("/api/vehicle", (req, res) => {
+app.get("/api/route", (req, res) => {
   // Construct the correct file path
   const filePath = path.join(__dirname, "data.json");
 

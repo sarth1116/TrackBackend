@@ -1,132 +1,26 @@
 [
-  {
-    "latitude": 19.760264,
-    "longitude": 74.476342,
-    "timestamp": "2024-07-20T10:00:00Z"
-  },
-  {
-    "latitude": 19.801131,
-    "longitude": 74.469284,
-    "timestamp": "2024-07-20T10:30:00Z"
-  },
-  {
-    "latitude": 19.835385,
-    "longitude": 74.422288,
-    "timestamp": "2024-07-20T11:00:00Z"
-  },
-  {
-    "latitude": 19.836138,
-    "longitude": 74.374954,
-    "timestamp": "2024-07-20T11:30:00Z"
-  },
-  {
-    "latitude": 19.824364,
-    "longitude": 74.341984,
-    "timestamp": "2024-07-20T12:00:00Z"
-  },
-  {
-    "latitude": 19.809038,
-    "longitude": 74.272771,
-    "timestamp": "2024-07-20T12:30:00Z"
-  },
-  {
-    "latitude": 19.803449,
-    "longitude": 74.24568,
-    "timestamp": "2024-07-20T13:00:00Z"
-  },
-  {
-    "latitude": 19.818522,
-    "longitude": 74.204548,
-    "timestamp": "2024-07-20T13:30:00Z"
-  },
-  {
-    "latitude": 19.829275,
-    "longitude": 74.153606,
-    "timestamp": "2024-07-20T14:00:00Z"
-  },
-  {
-    "latitude": 19.840197,
-    "longitude": 74.101223,
-    "timestamp": "2024-07-20T14:30:00Z"
-  },
-  {
-    "latitude": 19.849297,
-    "longitude": 74.051181,
-    "timestamp": "2024-07-20T15:00:00Z"
-  },
-  {
-    "latitude": 19.844026,
-    "longitude": 73.993681,
-    "timestamp": "2024-07-20T15:30:00Z"
-  },
-  {
-    "latitude": 19.914469,
-    "longitude": 73.899911,
-    "timestamp": "2024-07-20T16:00:00Z"
-  },
-  {
-    "latitude": 19.950963,
-    "longitude": 73.844688,
-    "timestamp": "2024-07-20T16:30:00Z"
-  },
-  {
-    "latitude": 19.997131,
-    "longitude": 73.843826,
-    "timestamp": "2024-07-20T17:00:00Z"
-  },
-  {
-    "latitude": 20.015379,
-    "longitude": 73.990451,
-    "timestamp": "2024-07-20T17:30:00Z"
-  },
-  {
-    "latitude": 20.075624,
-    "longitude": 74.115129,
-    "timestamp": "2024-07-20T18:00:00Z"
-  },
-  {
-    "latitude": 20.070687,
-    "longitude": 74.177095,
-    "timestamp": "2024-07-20T18:30:00Z"
-  },
-  {
-    "latitude": 20.10315,
-    "longitude": 74.225622,
-    "timestamp": "2024-07-20T19:00:00Z"
-  },
-  {
-    "latitude": 20.06897,
-    "longitude": 74.280036,
-    "timestamp": "2024-07-20T19:30:00Z"
-  },
-  {
-    "latitude": 20.038482,
-    "longitude": 74.486742,
-    "timestamp": "2024-07-20T20:00:00Z"
-  },
-  {
-    "latitude": 19.930725,
-    "longitude": 74.485646,
-    "timestamp": "2024-07-20T20:30:00Z"
-  },
-  {
-    "latitude": 19.882313,
-    "longitude": 74.487472,
-    "timestamp": "2024-07-20T21:00:00Z"
-  },
-  {
-    "latitude": 19.843505,
-    "longitude": 74.478343,
-    "timestamp": "2024-07-20T21:30:00Z"
-  },
-  {
-    "latitude": 19.806787,
-    "longitude": 74.470103,
-    "timestamp": "2024-07-20T22:00:00Z"
-  },
-  {
-    "latitude": 19.764082,
-    "longitude": 74.476187,
-    "timestamp": "2024-07-20T22:30:00Z"
-  }
+  { "latitude": 19.0760, "longitude": 72.8777 },
+  { "latitude": 19.2183, "longitude": 73.0868 },
+  { "latitude": 19.2169, "longitude": 73.1631 },
+  { "latitude": 19.2410, "longitude": 73.1297 },
+  { "latitude": 19.2513, "longitude": 73.1632 },
+  { "latitude": 19.1478, "longitude": 73.3028 },
+  { "latitude": 18.9744, "longitude": 73.3456 },
+  { "latitude": 18.7593, "longitude": 73.4062 },
+  { "latitude": 18.6337, "longitude": 73.4629 },
+  { "latitude": 18.6461, "longitude": 73.6906 },
+  { "latitude": 18.5236, "longitude": 73.7267 },
+  { "latitude": 18.5204, "longitude": 73.8567 },
+
+ 
+  { "latitude": 18.5100, "longitude": 73.9700 },
+  { "latitude": 18.6250, "longitude": 74.0100 },
+  { "latitude": 18.7500, "longitude": 73.9800 },
+  { "latitude": 18.8800, "longitude": 73.9100 },
+  { "latitude": 19.0000, "longitude": 73.8400 },
+  { "latitude": 19.1500, "longitude": 73.7800 },
+  { "latitude": 19.2700, "longitude": 73.7000 },
+  { "latitude": 19.3600, "longitude": 73.5900 },
+  { "latitude": 19.4300, "longitude": 73.4500 }
+  
 ]
