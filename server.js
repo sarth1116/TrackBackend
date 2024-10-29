@@ -8,7 +8,8 @@ app.use(cors()); // Enable CORS for all routes
 
 // Endpoint to serve vehicle route data
 app.get('/api/route', (req, res) => {
-    const filePath = path.join(__dirname, 'data', 'data.json');
+    const filePath = path.join(__dirname, 'public', 'data', 'data.json');
+
 
     // Check if the data file exists
     if (!fs.existsSync(filePath)) {
