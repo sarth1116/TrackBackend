@@ -1,34 +1,20 @@
-const express = require('express');
-const fs = require('fs');
-const path = require('path');
-const cors = require('cors');
-
+const express = require("express");
+const fs = require("fs"); // For reading data from the filesystem
 const app = express();
+const cors = require("cors"); // To allow cross-origin requests
+
 app.use(cors()); // Enable CORS for all routes
 
-// Endpoint to serve vehicle route data
-app.get('/api/route', (req, res) => {
-    const filePath = path.join(__dirname, 'public', 'data', 'data.json');
-    console.log('Received request for /api/route');
-    console.log('File path:', filePath); // Log the file path
-
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) {
-            console.error('Error reading data:', err);
-            return res.status(500).send({ message: 'Error reading data', error: err });
-        }
-        
-        try {
-            const jsonData = JSON.parse(data);
-            res.json(jsonData); // Send the data as JSON response
-        } catch (parseError) {
-            console.error('Error parsing JSON:', parseError);
-            return res.status(500).send({ message: 'Error parsing JSON', error: parseError });
-        }
-    });
+// Route to get the vehicle location data
+app.get("/api/vehicle", (req, res) => {
+  // Read vehicle location data from dummy.json in the Data folder
+  fs.readFile(__dirname + "./public/data/data.json", "utf8", (err, data) => {
+    if (err) throw err; // Handle any read errors
+    res.send(JSON.parse(data)); // Send JSON-parsed data as the response
+  });
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000; // Define the server's port
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`); // Log server status
 });
