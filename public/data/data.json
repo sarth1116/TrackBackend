@@ -1,16 +1,14 @@
-
-
-[
-    { "latitude": 19.0760, "longitude": 72.8777 },  
-      { "latitude": 19.2183, "longitude": 73.0868 },  
-    { "latitude": 19.2169, "longitude": 73.1631 }, 
-    { "latitude": 19.2410, "longitude": 73.1297 },  
-    { "latitude": 19.2513, "longitude": 73.1632 }, 
-    { "latitude": 19.1478, "longitude": 73.3028 }, 
-    { "latitude": 18.9744, "longitude": 73.3456 }, 
-    { "latitude": 18.7593, "longitude": 73.4062 },  
-    { "latitude": 18.6337, "longitude": 73.4629 },
-    { "latitude": 18.6461, "longitude": 73.6906 },  
-    { "latitude": 18.5236, "longitude": 73.7267 },  
-    { "latitude": 18.5204, "longitude": 73.8567 }
-]
+{
+  "vehicles": [
+      {
+          "id": 1,
+          "location": "Mumbai",
+          "coordinates": { "lat": 19.076, "lng": 72.8777 }
+      },
+      {
+          "id": 2,
+          "location": "Pune",
+          "coordinates": { "lat": 18.5204, "lng": 73.8567 }
+      }
+  ]
+}
